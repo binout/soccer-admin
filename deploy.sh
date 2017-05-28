@@ -16,9 +16,9 @@ git clone -b gh-pages https://github.com/binout/soccer-admin.git $dist
 npm run build
 
 # Clean old resources
-rm $dist/main.*
-rm $dist/styles.*
-rm $dist/inline.*
+rm -rf $dist/static/css
+rm -rf $dist/static/js
+rm -rf $dist/static/media
 
 # Add new resources
 cp -R build/* $dist

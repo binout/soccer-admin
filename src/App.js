@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Season from './Season.js';
+import Players from './Players.js';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
             <h2>Administration</h2>
         </div>
         <Season/>
+        <Players/>
       </div>
     );
   }
